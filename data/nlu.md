@@ -57,19 +57,22 @@
 
 ## intent:ask_about_age
 
-- what is age of [vishal](name)
-- what is the age of [shivansh](name)
-- [rishi](name) age ?
+- what is age of [lex](name)
+- what is the age of [ron](name)
+- [rohan](name) age ?
 
 ## intent:ask_about_people
 
-- tell me about [rishi](name)?
-- [shivansh](name)
-- about[shivansh](name)?
+- tell me about [lex](name)?
+- [ron](name)
+- about[rohan](name)?
 
 ## intent:ask_about_color
 
 - what is the favourite color of [salil](name)
+- favourite color of [ron](name)
+- fav color of [ron](name)
+- what is the fav color of [salil](name)
 
 ## intent:bot_challenge
 
