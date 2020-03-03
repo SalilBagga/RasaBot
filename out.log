@@ -1,0 +1,24 @@
+2020-03-03 12:36:52,299 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-03 12:38:02,068 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2020-03-03 12:38:13,040 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2020-03-03 12:50:11,403 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\sanic\app.py", line 1133, in run
+    serve(**server_settings)
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\sanic\server.py", line 885, in serve
+    loop.run_forever()
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\asyncio\base_events.py", line 538, in run_forever
+    self._run_once()
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\asyncio\base_events.py", line 1746, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
